@@ -45,3 +45,13 @@ for (var i = 0; i < students.length; i++) {
   student = students[i];
   console.log('Nombre Completo:', student.name + " " + student.lastName, ', Note:', student.note);
 }
+
+
+// Ejemplo Try/Catch
+try {
+  var number1 = 1;
+  var div = number1 / number2;
+
+} catch (e) {
+  console.log("No puedes dividir número entre una variable que no existe 💥", e);
+}
